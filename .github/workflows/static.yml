@@ -37,7 +37,11 @@ jobs:
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-
+      - name: Debug Git Blame
+        run: |
+          git blame style.css
+          npx elocuent -d . -o meta/loc.csv
+     
       - name: Run Elocuent
         run: |
           npx elocuent -d . -o meta/loc.csv
