@@ -3,9 +3,9 @@ body {
          and use the OS’s UI font as the website font
        */
   font: 100%/1.5 system-ui;
-  max-width: 50em; /* let’s stop the content from getting so wide */
-  margin-inline: auto; /* let’s center that content; alt: max(1em, (100% - 100ch) / 2) */
-  padding: 1em; /* prevent from touching the edges of the viewport */
+  max-width: 50em;
+  margin-inline: auto;
+  padding: 1em;
 }
 
 .responsive-image {
@@ -16,7 +16,6 @@ body {
 .location {
   float: right;
 }
-
 
 nav a {
   flex: 1; /* blue part of the object */
