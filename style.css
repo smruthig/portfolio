@@ -17,6 +17,7 @@ body {
   float: right;
 }
 
+
 nav a {
   flex: 1; /* blue part of the object */
   text-decoration: none;
